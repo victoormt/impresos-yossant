@@ -81,7 +81,7 @@ const CATALOG_PRODUCTS = [
     category: 'Impresión para tu marca',
     title: 'Tarjetas de Presentación',
     desc: 'Tarjetas de presentación en cartulinas de alto gramaje con diferentes acabados, laminado suave y detalles metálicos.',
-    image: 'assets/img/prod-papeleria-corporativa.webp',
+    image: 'assets/img/prod-papeleria-corporativa-v2.webp',
     specs: {
       Papel: 'Cartulina sulfatada o couché de alto gramaje (300 g / 14 pts)',
       Acabados: 'Laminado mate, barniz a registro, foil dorado/plateado o realce',
