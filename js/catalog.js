@@ -98,7 +98,7 @@ const CATALOG_PRODUCTS = [
     category: 'Editorial y presentación comercial',
     title: 'Libros, Catálogos y Bolsas',
     desc: 'Catálogos de productos, libros con lomo resistente (PUR), revistas, bolsas de papel impresas y fajillas para envases.',
-    image: 'assets/img/prod-libros-catalogos.webp',
+    image: 'assets/img/prod-libros-catalogos-v2.webp',
     specs: {
       Encuadernación: 'Pegado PUR / Hot-Melt ultra resistente o a caballo (grapa)',
       Bolsas: 'Bolsas kraft o blancas y fajillas impresas en tirajes cortos y masivos',
