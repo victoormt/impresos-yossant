@@ -64,7 +64,7 @@ const CATALOG_PRODUCTS = [
     category: 'Adhesivos de alta calidad',
     title: 'Stickers y Etiquetas',
     desc: 'Stickers personalizados, etiquetas para frascos o envases y sellos de seguridad para delivery con materiales resistentes.',
-    image: 'assets/img/prod-etiquetas-menus.webp',
+    image: 'assets/img/prod-etiquetas-menus-v2.webp',
     specs: {
       Corte: 'Medio corte (kiss-cut) o suaje a la forma exacta de tu diseño',
       Adherencia: 'Adhesivo firme para vidrio, plástico, cartón y bolsas kraft',
