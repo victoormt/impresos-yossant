@@ -4,7 +4,7 @@
  * Este módulo gestiona el modal configurador (<dialog>), formularios y eventos hacia WhatsApp/Telegram.
  */
 
-const WHATSAPP_NUMBER = '525554458161';
+const WHATSAPP_NUMBER = '525532048858';
 
 const CATALOG_PRODUCTS = [
   {
