@@ -30,7 +30,7 @@ const CATALOG_PRODUCTS = [
     category: 'Empaques para alimentos',
     title: 'Cajas para Comida y Repostería',
     desc: 'Cajas para pasteles, Rosca de Reyes, hamburguesas, alitas, sushi y bolsas para delivery listas para proteger y lucir tus alimentos.',
-    image: 'assets/img/prod-cajas-reposteria.webp',
+    image: 'assets/img/prod-cajas-reposteria-v2.webp',
     specs: {
       Material: 'Cartulina grado alimenticio resistente a humedad y grasa',
       Tirajes: 'Desde 10 pzs en medidas seleccionadas de línea; cotización directa para proyectos a la medida',
