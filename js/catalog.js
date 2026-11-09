@@ -12,7 +12,7 @@ const CATALOG_PRODUCTS = [
     category: 'Diseños únicos para tu marca',
     title: 'Cajas Personalizadas',
     desc: 'Diseñamos y fabricamos cajas personalizadas a la medida de tu producto con materiales resistentes y múltiples acabados.',
-    image: 'assets/img/prod-cajas-ecommerce.webp',
+    image: 'assets/img/prod-cajas-ecommerce-v2.webp',
     specs: {
       Material: 'Cartulina sulfatada y caple hasta 24 pts',
       Acabados: 'Laminado mate/brillante, foil metálico (hot stamping) y realce',
