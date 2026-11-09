@@ -16,11 +16,12 @@ const CATALOG_PRODUCTS = [
     specs: {
       Material: 'Cartulina sulfatada y caple hasta 24 pts',
       Acabados: 'Laminado mate/brillante, foil metálico (hot stamping) y realce',
+      Mínimos: 'Desde 10 pz en formatos de línea; medidas especiales con suaje a la medida se cotizan directamente',
       Prototipo: 'Muestra física (dummy) antes de producir tu tiraje'
     },
     options: {
       Formato: ['Caja para producto', 'Caja para envío (mailer)', 'Estuche de regalo', 'Con ventana', 'A medida'],
-      Cantidad: ['10–49 pzs', '50–200 pzs', '250–500 pzs', '1,000+ pzs'],
+      Cantidad: ['10–49 pzs (medidas de línea)', '50–200 pzs', '250–500 pzs', '1,000+ pzs'],
       Acabado: ['Laminado mate', 'Laminado brillante', 'Mate + Foil metálico', 'Natural']
     }
   },
@@ -32,12 +33,12 @@ const CATALOG_PRODUCTS = [
     image: 'assets/img/prod-cajas-reposteria.webp',
     specs: {
       Material: 'Cartulina grado alimenticio resistente a humedad y grasa',
-      Tirajes: 'Desde 10 piezas en digital hasta miles en offset',
+      Tirajes: 'Desde 10 pzs en medidas seleccionadas de línea; cotización directa para proyectos a la medida',
       Extras: 'Ventana transparente de acetato, suaje auto-armable'
     },
     options: {
       Formato: ['Repostería / Pastel', 'Rosca de Reyes', 'Hamburguesa / Alitas', 'Sushi / Comida', 'A medida'],
-      Cantidad: ['10–49 pzs', '50–200 pzs', '250–500 pzs', '1,000+ pzs'],
+      Cantidad: ['10–49 pzs (medidas de línea)', '50–200 pzs', '250–500 pzs', '1,000+ pzs'],
       Acabado: ['Con ventana', 'Laminado brillante', 'Laminado mate', 'Kraft natural']
     }
   },
@@ -100,7 +101,7 @@ const CATALOG_PRODUCTS = [
     image: 'assets/img/prod-libros-catalogos.webp',
     specs: {
       Encuadernación: 'Pegado PUR / Hot-Melt ultra resistente o a caballo (grapa)',
-      Bolsas: 'Bolsas kraft o blancas y fajillas impresas desde 10 piezas',
+      Bolsas: 'Bolsas kraft o blancas y fajillas impresas en tirajes cortos y masivos',
       Acabados: 'Portadas con laminado mate, brillante o foil metálico'
     },
     options: {
