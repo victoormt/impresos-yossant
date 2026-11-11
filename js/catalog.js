@@ -12,7 +12,7 @@ const CATALOG_PRODUCTS = [
     id: 'cajas-personalizadas',
     category: 'Empaque a la medida',
     title: 'Cajas Personalizadas',
-    desc: 'Cajas plegadizas y estuches suajados sobre diseño para cosmética, regalo y producto comercial.',
+    desc: 'Cajas plegadizas y empaques suajados sobre diseño para cosmética, regalo y producto comercial.',
     image: 'assets/img/cat-caja-faja.webp',
     defaultCaption: 'Muestra real · Caja blanca con faja envolvente impresa',
     specs: {
@@ -24,7 +24,6 @@ const CATALOG_PRODUCTS = [
       Modelo: [
         'Caja con faja impresa',
         'Caja básica (blanca)',
-        'Estuche largo (blanco)',
         'Caja asa de corazón',
         'Caja con suaje calado',
         'Caja plana con ventana'
@@ -35,7 +34,6 @@ const CATALOG_PRODUCTS = [
     variantImages: [
       { match: { Modelo: 'Caja con faja impresa' }, src: 'assets/img/cat-caja-faja.webp', label: 'Muestra real · Caja con faja envolvente impresa' },
       { match: { Modelo: 'Caja básica (blanca)' }, src: 'assets/img/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
-      { match: { Modelo: 'Estuche largo (blanco)' }, src: 'assets/img/cat-caja-estuche-blanco.webp', label: 'Muestra real · Estuche largo blanco con suaje' },
       { match: { Modelo: 'Caja asa de corazón' }, src: 'assets/img/cat-caja-asa-corazon.webp', label: 'Muestra real · Caja con asa de corazón y ventana' },
       { match: { Modelo: 'Caja con suaje calado' }, src: 'assets/img/cat-caja-suaje-calado.webp', label: 'Muestra real · Caja con suaje calado decorativo' },
       { match: { Modelo: 'Caja plana con ventana' }, src: 'assets/img/cat-caja-hueco-blanca.webp', label: 'Muestra real · Caja plana blanca con ventana suajada' },
@@ -52,7 +50,7 @@ const CATALOG_PRODUCTS = [
     defaultCaption: 'Muestra real · Caja armada para repostería',
     specs: {
       Material: 'Cartulina grado alimenticio y papel envoltura seguro para alimentos',
-      Modelos: 'Comida china, repostería, pastel alto, hexagonal, hamburguesa y temporada',
+      Modelos: 'Comida china, repostería, pastel alto, hexagonal, hamburguesa, hot dog y temporada',
       Acabados: 'Impresión con tintas certificadas o presentación en blanco'
     },
     options: {
@@ -63,6 +61,7 @@ const CATALOG_PRODUCTS = [
         'Caja grande / rosca',
         'Caja hexagonal para postre',
         'Caja para hamburguesa',
+        'Caja para hot dog',
         'Papel envoltura personalizado'
       ],
       Presentación: ['Estándar de línea', 'Impresión full color', 'En blanco sin impresión'],
@@ -77,6 +76,7 @@ const CATALOG_PRODUCTS = [
       { match: { Empaque: 'Caja grande / rosca' }, src: 'assets/img/cat-caja-navidena-rosca.webp', label: 'Muestra real · Caja grande impresa para rosca / temporada' },
       { match: { Empaque: 'Caja hexagonal para postre' }, src: 'assets/img/cat-caja-takeout-postres.webp', label: 'Muestra real · Caja hexagonal take-out para postres' },
       { match: { Empaque: 'Caja para hamburguesa' }, src: 'assets/img/cat-caja-hamburguesa.webp', label: 'Muestra real · Caja armable para hamburguesa' },
+      { match: { Empaque: 'Caja para hot dog' }, src: 'assets/img/cat-caja-estuche-blanco.webp', label: 'Muestra real · Caja / charola blanca para hot dog' },
       { match: { Empaque: 'Papel envoltura personalizado' }, src: 'assets/img/cat-papel-envoltura.webp', label: 'Muestra real · Papel envoltura personalizado grado alimenticio' }
     ]
   },
