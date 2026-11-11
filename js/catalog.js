@@ -13,7 +13,7 @@ const CATALOG_PRODUCTS = [
     category: 'Empaque a la medida',
     title: 'Cajas Personalizadas',
     desc: 'Cajas plegadizas y empaques suajados sobre diseño para cosmética, regalo y producto comercial.',
-    image: 'assets/img/prep/cat-caja-faja.webp',
+    image: 'assets/img/cyc/cat-caja-faja.webp',
     defaultCaption: 'Muestra real · Caja blanca con faja envolvente impresa',
     specs: {
       Material: 'Cartulina sulfatada (14 a 24 pts) o microcorrugado',
@@ -32,13 +32,13 @@ const CATALOG_PRODUCTS = [
       Tiraje: ['100 – 500 pzas', '500 – 2,000 pzas', 'Más de 5,000 pzas']
     },
     variantImages: [
-      { match: { Modelo: 'Caja con faja impresa' }, src: 'assets/img/prep/cat-caja-faja.webp', label: 'Muestra real · Caja con faja envolvente impresa' },
-      { match: { Modelo: 'Caja básica (blanca)' }, src: 'assets/img/prep/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
-      { match: { Modelo: 'Caja asa de corazón' }, src: 'assets/img/prep/cat-caja-asa-corazon.webp', label: 'Muestra real · Caja con asa de corazón y ventana' },
+      { match: { Modelo: 'Caja con faja impresa' }, src: 'assets/img/cyc/cat-caja-faja.webp', label: 'Muestra real · Caja con faja envolvente impresa' },
+      { match: { Modelo: 'Caja básica (blanca)' }, src: 'assets/img/cyc/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
+      { match: { Modelo: 'Caja asa de corazón' }, src: 'assets/img/cyc/cat-caja-asa-corazon.webp', label: 'Muestra real · Caja con asa de corazón y ventana' },
       { match: { Modelo: 'Caja con suaje calado' }, src: 'assets/img/prep/cat-caja-suaje-calado.webp', label: 'Muestra real · Caja con suaje calado decorativo' },
       { match: { Modelo: 'Caja plana con ventana' }, src: 'assets/img/prep/cat-caja-hueco-blanca.webp', label: 'Muestra real · Caja plana blanca con ventana suajada' },
-      { match: { Modelo: 'Caja con faja impresa', Presentación: 'En blanco sin impresión' }, src: 'assets/img/prep/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
-      { match: { Modelo: 'Caja básica (blanca)', Presentación: 'Con faja envolvente' }, src: 'assets/img/prep/cat-caja-faja.webp', label: 'Muestra real · Caja blanca con faja impresa' }
+      { match: { Modelo: 'Caja con faja impresa', Presentación: 'En blanco sin impresión' }, src: 'assets/img/cyc/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
+      { match: { Modelo: 'Caja básica (blanca)', Presentación: 'Con faja envolvente' }, src: 'assets/img/cyc/cat-caja-faja.webp', label: 'Muestra real · Caja blanca con faja impresa' }
     ]
   },
   {
@@ -46,7 +46,7 @@ const CATALOG_PRODUCTS = [
     category: 'Grado alimenticio',
     title: 'Cajas para Comida y Repostería',
     desc: 'Cajas armables y papel envoltura para repostería, pasteles, comida rápida y servicio para llevar.',
-    image: 'assets/img/prep/cat-caja-reposteria.webp',
+    image: 'assets/img/cyc/cat-caja-reposteria.webp',
     defaultCaption: 'Muestra real · Caja armada para repostería',
     specs: {
       Material: 'Cartulina grado alimenticio y papel envoltura seguro para alimentos',
@@ -68,13 +68,13 @@ const CATALOG_PRODUCTS = [
       Tiraje: ['100 – 500 pzas', '500 – 2,000 pzas', 'Más de 5,000 pzas']
     },
     variantImages: [
-      { match: { Empaque: 'Caja para repostería' }, src: 'assets/img/prep/cat-caja-reposteria.webp', label: 'Muestra real · Caja armada para repostería' },
+      { match: { Empaque: 'Caja para repostería' }, src: 'assets/img/cyc/cat-caja-reposteria.webp', label: 'Muestra real · Caja armada para repostería' },
       { match: { Empaque: 'Caja de comida china' }, src: 'assets/img/prep/cat-caja-comida-china-blanca.webp', label: 'Muestra real · Caja de comida china blanca' },
       { match: { Empaque: 'Caja de comida china', Presentación: 'Impresión full color' }, src: 'assets/img/prep/cat-caja-comida-china-impresa.webp', label: 'Muestra real · Caja de comida china impresa con tu marca' },
       { match: { Empaque: 'Caja de comida china', Presentación: 'En blanco sin impresión' }, src: 'assets/img/prep/cat-caja-comida-china-blanca.webp', label: 'Muestra real · Caja de comida china blanca sin impresión' },
       { match: { Empaque: 'Caja alta para pastel' }, src: 'assets/img/prep/cat-caja-pastel-alta.webp', label: 'Muestra real · Caja alta para pastel con tapa' },
       { match: { Empaque: 'Caja grande / rosca' }, src: 'assets/img/prep/cat-caja-navidena-rosca.webp', label: 'Muestra real · Caja grande impresa para rosca / temporada' },
-      { match: { Empaque: 'Caja hexagonal para postre' }, src: 'assets/img/prep/cat-caja-takeout-postres.webp', label: 'Muestra real · Caja hexagonal take-out para postres' },
+      { match: { Empaque: 'Caja hexagonal para postre' }, src: 'assets/img/cyc/cat-caja-takeout-postres.webp', label: 'Muestra real · Caja hexagonal take-out para postres' },
       { match: { Empaque: 'Caja para hamburguesa' }, src: 'assets/img/prep/cat-caja-hamburguesa.webp', label: 'Muestra real · Caja armable para hamburguesa' },
       { match: { Empaque: 'Caja para hot dog' }, src: 'assets/img/prep/cat-caja-estuche-blanco.webp', label: 'Muestra real · Caja / charola blanca para hot dog' },
       { match: { Empaque: 'Papel envoltura personalizado' }, src: 'assets/img/prep/cat-papel-envoltura.webp', label: 'Muestra real · Papel envoltura personalizado grado alimenticio' }
@@ -85,7 +85,7 @@ const CATALOG_PRODUCTS = [
     category: 'Retail y regalos',
     title: 'Bolsas de Papel con Jareta',
     desc: 'Bolsas resistentes con asa de cordón y fuelle amplio, impresas a color o lisas en tonos de línea.',
-    image: 'assets/img/prep/cat-bolsa-impresa.webp',
+    image: 'assets/img/cyc/cat-bolsa-impresa.webp',
     defaultCaption: 'Muestra real · Bolsa impresa full color con asa de cordón',
     specs: {
       Material: 'Papel / cartulina de alto gramaje con refuerzo en base y boca',
@@ -106,13 +106,13 @@ const CATALOG_PRODUCTS = [
       Tiraje: ['100 pzas', '300 pzas', '500 – 1,000+ pzas']
     },
     variantImages: [
-      { match: { Presentación: 'Impresa personalizada' }, src: 'assets/img/prep/cat-bolsa-impresa.webp', label: 'Muestra real · Bolsa impresa personalizada full color' },
-      { match: { Presentación: 'Lisa negra' }, src: 'assets/img/prep/cat-bolsa-negra.webp', label: 'Muestra real · Bolsa lisa negra con jareta' },
-      { match: { Presentación: 'Lisa roja' }, src: 'assets/img/prep/cat-bolsa-roja.webp', label: 'Muestra real · Bolsa lisa roja con jareta' },
+      { match: { Presentación: 'Impresa personalizada' }, src: 'assets/img/cyc/cat-bolsa-impresa.webp', label: 'Muestra real · Bolsa impresa personalizada full color' },
+      { match: { Presentación: 'Lisa negra' }, src: 'assets/img/cyc/cat-bolsa-negra.webp', label: 'Muestra real · Bolsa lisa negra con jareta' },
+      { match: { Presentación: 'Lisa roja' }, src: 'assets/img/cyc/cat-bolsa-roja.webp', label: 'Muestra real · Bolsa lisa roja con jareta' },
       { match: { Presentación: 'Lisa verde' }, src: 'assets/img/prep/cat-bolsa-verde.webp', label: 'Muestra real · Bolsa lisa verde con jareta' },
-      { match: { Presentación: 'Lisa naranja' }, src: 'assets/img/prep/cat-bolsa-naranja.webp', label: 'Muestra real · Bolsa lisa naranja con jareta' },
-      { match: { Presentación: 'Lisa fiusha' }, src: 'assets/img/prep/cat-bolsa-fiusha.webp', label: 'Muestra real · Bolsa lisa fiusha con jareta' },
-      { match: { Presentación: 'Lisa amarilla' }, src: 'assets/img/prep/cat-bolsa-amarilla.webp', label: 'Muestra real · Bolsa lisa amarilla con jareta' }
+      { match: { Presentación: 'Lisa naranja' }, src: 'assets/img/cyc/cat-bolsa-naranja.webp', label: 'Muestra real · Bolsa lisa naranja con jareta' },
+      { match: { Presentación: 'Lisa fiusha' }, src: 'assets/img/cyc/cat-bolsa-fiusha.webp', label: 'Muestra real · Bolsa lisa fiusha con jareta' },
+      { match: { Presentación: 'Lisa amarilla' }, src: 'assets/img/cyc/cat-bolsa-amarilla.webp', label: 'Muestra real · Bolsa lisa amarilla con jareta' }
     ]
   },
   {
