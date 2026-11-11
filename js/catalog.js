@@ -77,7 +77,7 @@ const CATALOG_PRODUCTS = [
       { match: { Empaque: 'Caja hexagonal para postre' }, src: 'assets/img/cyc/cat-caja-takeout-postres.webp', label: 'Muestra real · Caja hexagonal take-out para postres' },
       { match: { Empaque: 'Caja para hamburguesa' }, src: 'assets/img/orig/cat-caja-hamburguesa.webp', label: 'Muestra real · Caja armable para hamburguesa' },
       { match: { Empaque: 'Caja para hot dog' }, src: 'assets/img/orig/cat-caja-estuche-blanco.webp', label: 'Muestra real · Caja / charola blanca para hot dog' },
-      { match: { Empaque: 'Papel envoltura personalizado' }, src: 'assets/img/orig/cat-papel-envoltura.webp', label: 'Muestra real · Papel envoltura personalizado grado alimenticio' }
+      { match: { Empaque: 'Papel envoltura personalizado' }, src: 'assets/img/orig/cat-papel-envoltura-v2.webp', label: 'Muestra real · Papel envoltura personalizado grado alimenticio' }
     ]
   },
   {
