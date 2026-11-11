@@ -109,7 +109,7 @@ const CATALOG_PRODUCTS = [
       { match: { Presentación: 'Impresa personalizada' }, src: 'assets/img/cyc/cat-bolsa-impresa.webp', label: 'Muestra real · Bolsa impresa personalizada full color' },
       { match: { Presentación: 'Lisa negra' }, src: 'assets/img/cyc/cat-bolsa-negra.webp', label: 'Muestra real · Bolsa lisa negra con jareta' },
       { match: { Presentación: 'Lisa roja' }, src: 'assets/img/cyc/cat-bolsa-roja.webp', label: 'Muestra real · Bolsa lisa roja con jareta' },
-      { match: { Presentación: 'Lisa verde' }, src: 'assets/img/orig/cat-bolsa-verde.webp', label: 'Muestra real · Bolsa lisa verde con jareta' },
+      { match: { Presentación: 'Lisa verde' }, src: 'assets/img/cyc/cat-bolsa-verde.webp', label: 'Muestra real · Bolsa lisa verde con jareta' },
       { match: { Presentación: 'Lisa naranja' }, src: 'assets/img/cyc/cat-bolsa-naranja.webp', label: 'Muestra real · Bolsa lisa naranja con jareta' },
       { match: { Presentación: 'Lisa fiusha' }, src: 'assets/img/cyc/cat-bolsa-fiusha.webp', label: 'Muestra real · Bolsa lisa fiusha con jareta' },
       { match: { Presentación: 'Lisa amarilla' }, src: 'assets/img/cyc/cat-bolsa-amarilla.webp', label: 'Muestra real · Bolsa lisa amarilla con jareta' }
