@@ -259,7 +259,7 @@ const CATALOG_PRODUCTS = [
       { match: { Artículo: 'Empaque para blister POS' }, src: 'assets/img/orig/cat-pop-blister-v2.webp', label: 'Muestra real · Cartón suajado para empaque blister POS' },
       { match: { Artículo: 'Coroplast vertical con ojillos' }, src: 'assets/img/orig/cat-coroplast-vertical-v2.webp', label: 'Muestra real · Letrero vertical en coroplast con ojillos' },
       { match: { Artículo: 'Balón 3D armado en cartulina' }, src: 'assets/img/orig/cat-pop-balon-3d-v2.webp', label: 'Muestra real · Balón promocional 3D en cartulina suajada' },
-      { match: { Artículo: 'Lanyard sublimado con bandola' }, src: 'assets/img/orig/cat-lanyard-sublimado-v2.webp', label: 'Muestra real · Lanyard sublimado a color con bandola metálica' }
+      { match: { Artículo: 'Lanyard sublimado con bandola' }, src: 'assets/img/cyc/cat-lanyard-sublimado.webp', label: 'Muestra real · Lanyard sublimado con bandola metálica' }
     ]
   }
 ];
