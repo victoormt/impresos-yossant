@@ -210,8 +210,9 @@ svg { flex-shrink: 0; }
 .section--dark .section-head p { color: rgba(255,255,255,.76); }
 
 /* ---------- Catálogo (Tarjetas horizontales directas) ---------- */
-.catalog-grid { display: grid; gap: 28px; grid-template-columns: 1fr; }
-@media (min-width: 980px) { .catalog-grid { grid-template-columns: repeat(2, 1fr); } }
+.catalog-grid { display: grid; gap: 24px; grid-template-columns: 1fr; }
+@media (min-width: 980px) { .catalog-grid { grid-template-columns: repeat(2, 1fr); gap: 22px; } }
+@media (min-width: 1180px) { .catalog-grid { gap: 28px; } }
 
 .product-card {
   background: var(--bg);
@@ -238,18 +239,27 @@ svg { flex-shrink: 0; }
 }
 .product-media {
   position: relative;
+  width: 100%;
   background: var(--bg-soft);
   overflow: hidden;
   min-height: 210px;
 }
 @media (max-width: 559px) {
-  .product-media { aspect-ratio: 16 / 10; min-height: 0; }
+  .product-media { aspect-ratio: 5 / 4; min-height: 0; }
 }
 .product-media img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   transition: transform .6s ease;
+}
+@media (min-width: 560px) {
+  .product-media img {
+    position: absolute;
+    inset: 0;
+  }
 }
 .product-card:hover .product-media img { transform: scale(1.05); }
 .product-num {
@@ -271,10 +281,21 @@ svg { flex-shrink: 0; }
   box-shadow: 0 4px 12px rgba(11, 18, 32, 0.35);
 }
 .product-body {
-  padding: 24px 26px;
+  padding: 20px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 0;
+}
+@media (min-width: 1180px) {
+  .product-body { padding: 24px 26px; }
+}
+@media (min-width: 980px) and (max-width: 1179px) {
+  .product-body { padding: 18px; }
+  .product-body h3 { font-size: 1.125rem; }
+  .product-body p { font-size: .84rem; margin-bottom: .75rem; }
+  .product-checks { margin-bottom: .85rem; }
+  .product-checks li { font-size: .8125rem; }
 }
 .product-kicker {
   display: inline-flex;
@@ -337,7 +358,7 @@ svg { flex-shrink: 0; }
 .cfg {
   position: fixed; inset: 0;
   margin: auto; border: 0; padding: 0;
-  width: min(960px, calc(100vw - 24px));
+  width: min(480px, calc(100vw - 24px));
   max-height: calc(100dvh - 24px);
   border-radius: 20px; background: var(--bg); color: var(--text);
   box-shadow: var(--shadow-lg); overflow-y: auto;
@@ -357,17 +378,15 @@ svg { flex-shrink: 0; }
 .cfg-close:hover { background: #000; color: #fff; transform: scale(1.04); }
 .cfg-close svg { width: 20px; height: 20px; }
 .cfg-grid { display: grid; grid-template-columns: 1fr; }
-@media (min-width: 820px) { .cfg-grid { grid-template-columns: 5fr 6fr; } }
 .cfg-media {
   position: relative;
+  width: 100%;
+  height: clamp(250px, min(104vw, 54dvh), 440px);
   background: #ffffff;
   overflow: hidden;
-  aspect-ratio: 3 / 4;
-  max-height: 500px;
 }
 .cfg-media:has(img.is-landscape) {
-  aspect-ratio: 3 / 2;
-  max-height: none;
+  height: clamp(200px, min(64vw, 42dvh), 360px);
 }
 .cfg-media img {
   display: block;
@@ -384,21 +403,10 @@ svg { flex-shrink: 0; }
 .cfg-media img.is-switching {
   opacity: .55;
 }
-@media (min-width: 820px) {
-  .cfg-media,
-  .cfg-media:has(img.is-landscape) {
-    aspect-ratio: auto;
-    max-height: none;
-    height: 100%;
-    min-height: 580px;
-  }
-}
-.cfg-main { padding: 22px 20px 24px; position: relative; }
-@media (min-width: 820px) { .cfg-main { padding: 32px 32px 28px; } }
-.cfg-main h3 { font-size: 1.45rem; margin: .2rem 0 .4rem; padding-right: 36px; }
-@media (min-width: 820px) { .cfg-main h3 { font-size: 1.6rem; } }
-.cfg-desc { color: var(--text-2); font-size: .925rem; margin-bottom: 1.25rem; }
-.cfg-group { border: 0; margin-bottom: 1rem; }
+.cfg-main { padding: 20px 18px 24px; position: relative; min-width: 0; }
+.cfg-main h3 { font-size: 1.4rem; margin: .2rem 0 .4rem; padding-right: 36px; }
+.cfg-desc { color: var(--text-2); font-size: .925rem; margin-bottom: 1.05rem; }
+.cfg-group { border: 0; margin-bottom: .85rem; }
 .cfg-group legend { font-size: .775rem; font-weight: 700; color: var(--ink); text-transform: uppercase; letter-spacing: .06em; margin-bottom: .45rem; }
 .chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .chip { position: relative; cursor: pointer; }
@@ -413,12 +421,52 @@ svg { flex-shrink: 0; }
   box-shadow: 0 2px 8px rgba(11, 18, 32, 0.25);
 }
 .chip input:focus-visible + span { outline: 2px solid var(--green); outline-offset: 2px; }
-.cfg-notes { width: 100%; padding: .75rem .95rem; border-radius: var(--radius-sm); border: 1px solid var(--line); font: inherit; font-size: .925rem; margin-bottom: 1rem; }
+.cfg-notes { width: 100%; padding: .75rem .95rem; border-radius: var(--radius-sm); border: 1px solid var(--line); font: inherit; font-size: .925rem; margin-bottom: .85rem; }
 .cfg-notes:focus { outline: 2px solid var(--green); border-color: var(--ink); }
 .cfg-cta-wrap {
-  position: sticky; bottom: -24px;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, var(--bg) 22%);
-  padding: 12px 0 4px;
+  padding-top: 4px;
+}
+@media (min-width: 640px) {
+  .cfg {
+    width: min(960px, calc(100vw - 24px));
+    overflow: hidden;
+  }
+  .cfg-grid {
+    grid-template-columns: 5fr 6fr;
+    align-items: stretch;
+  }
+  .cfg-media,
+  .cfg-media:has(img.is-landscape) {
+    width: 100%;
+    height: 100%;
+    min-height: min(460px, calc(100dvh - 26px));
+    max-height: calc(100dvh - 26px);
+  }
+  .cfg-media img {
+    position: absolute;
+    inset: 0;
+  }
+  .cfg-main {
+    padding: 20px 20px 22px;
+    max-height: calc(100dvh - 26px);
+    overflow-y: auto;
+  }
+  .cfg-main h3 { font-size: 1.45rem; }
+}
+@media (min-width: 640px) and (max-width: 859px) {
+  .cfg-desc { font-size: .86rem; margin-bottom: .85rem; }
+  .cfg-group { margin-bottom: .75rem; }
+  .chips { gap: 6px; }
+  .chip span { padding: .38rem .72rem; font-size: .8125rem; }
+  .cfg-notes { padding: .6rem .85rem; font-size: .875rem; margin-bottom: .75rem; }
+}
+@media (min-width: 860px) {
+  .cfg-media,
+  .cfg-media:has(img.is-landscape) {
+    min-height: min(560px, calc(100dvh - 26px));
+  }
+  .cfg-main { padding: 30px 32px 26px; }
+  .cfg-main h3 { font-size: 1.6rem; }
 }
 .cfg-specs { margin-top: 1rem; border-top: 1px solid var(--line); padding-top: .85rem; }
 .cfg-specs summary { cursor: pointer; font-size: .85rem; font-weight: 600; color: var(--text-2); list-style: none; }
