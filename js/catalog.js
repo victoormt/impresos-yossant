@@ -237,18 +237,17 @@ const CATALOG_PRODUCTS = [
     id: 'promocionales-pop',
     category: 'Punto de venta y activaciones',
     title: 'Promocionales, Coroplast y POS',
-    desc: 'Material promocional y señalización: cartón para blister POS, coroplast para plumas de estacionamiento, balones 3D y lanyards.',
+    desc: 'Material promocional y señalización: cartón para blister POS, coroplast con ojillos, balones 3D y lanyards.',
     image: 'assets/img/orig/cat-pop-blister-v2.webp',
     defaultCaption: 'Muestra real · Cartón suajado para empaque blister POS',
     specs: {
       Materiales: 'Coroplast rígido (4 mm), cartulina suajada de alto calibre y cinta poliéster',
-      Aplicaciones: 'Anuncios para plumas de estacionamiento, exhibición retail y eventos',
+      Aplicaciones: 'Señalización exterior en coroplast, exhibición retail y eventos',
       Herrajes: 'Ojillos metálicos, burbuja blister y bandola giratoria metálica'
     },
     options: {
       Artículo: [
         'Empaque para blister POS',
-        'Coroplast para pluma de estacionamiento',
         'Coroplast vertical con ojillos',
         'Balón 3D armado en cartulina',
         'Lanyard sublimado con bandola'
@@ -258,7 +257,6 @@ const CATALOG_PRODUCTS = [
     },
     variantImages: [
       { match: { Artículo: 'Empaque para blister POS' }, src: 'assets/img/orig/cat-pop-blister-v2.webp', label: 'Muestra real · Cartón suajado para empaque blister POS' },
-      { match: { Artículo: 'Coroplast para pluma de estacionamiento' }, src: 'assets/img/orig/cat-coroplast-horizontal.webp', label: 'Muestra real · Anuncio en coroplast para pluma de estacionamiento' },
       { match: { Artículo: 'Coroplast vertical con ojillos' }, src: 'assets/img/orig/cat-coroplast-vertical-v2.webp', label: 'Muestra real · Letrero vertical en coroplast con ojillos' },
       { match: { Artículo: 'Balón 3D armado en cartulina' }, src: 'assets/img/orig/cat-pop-balon-3d-v2.webp', label: 'Muestra real · Balón promocional 3D en cartulina suajada' },
       { match: { Artículo: 'Lanyard sublimado con bandola' }, src: 'assets/img/orig/cat-lanyard-sublimado-v2.webp', label: 'Muestra real · Lanyard sublimado a color con bandola metálica' }
