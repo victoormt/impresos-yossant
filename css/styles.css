@@ -362,8 +362,12 @@ svg { flex-shrink: 0; }
   position: relative;
   background: #ffffff;
   overflow: hidden;
-  aspect-ratio: 1 / 1;
-  max-height: 360px;
+  aspect-ratio: 4 / 5;
+  max-height: 440px;
+}
+.cfg-media:has(img.is-landscape) {
+  aspect-ratio: 3 / 2;
+  max-height: none;
 }
 .cfg-media img {
   display: block;
@@ -373,11 +377,16 @@ svg { flex-shrink: 0; }
   object-position: center;
   transition: opacity .16s ease;
 }
+.cfg-media img.is-landscape {
+  object-fit: contain;
+  background: #ffffff;
+}
 .cfg-media img.is-switching {
   opacity: .55;
 }
 @media (min-width: 820px) {
-  .cfg-media {
+  .cfg-media,
+  .cfg-media:has(img.is-landscape) {
     aspect-ratio: auto;
     max-height: none;
     height: 100%;
