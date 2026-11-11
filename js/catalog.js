@@ -120,7 +120,7 @@ const CATALOG_PRODUCTS = [
     category: 'Corporativo y personalizado',
     title: 'Libretas y Calendarios',
     desc: 'Libretas en doble arillo con portadas y hojas personalizadas, y calendarios de escritorio con Foil.',
-    image: 'assets/img/orig/cat-libreta-foil.webp',
+    image: 'assets/img/orig/cat-libreta-foil-v2.webp',
     defaultCaption: 'Muestra real · Libreta con acabado Hot Stamping Foil',
     specs: {
       Encuadernado: 'Doble arillo metálico (Wire-O) de alta resistencia',
@@ -141,13 +141,13 @@ const CATALOG_PRODUCTS = [
       Tiraje: ['50 – 200 pzas', '200 – 1,000 pzas', 'Más de 1,000 pzas']
     },
     variantImages: [
-      { match: { Producto: 'Libreta con Foil' }, src: 'assets/img/orig/cat-libreta-foil.webp', label: 'Muestra real · Libreta con Hot Stamping Foil dorado' },
-      { match: { Producto: 'Libreta con Foil', 'Estilo de muestra': 'Ilustrado / Deportivo' }, src: 'assets/img/orig/cat-libreta-unicornio-foil.webp', label: 'Muestra real · Libreta infantil con detalles en Foil' },
+      { match: { Producto: 'Libreta con Foil' }, src: 'assets/img/orig/cat-libreta-foil-v2.webp', label: 'Muestra real · Libreta con Hot Stamping Foil dorado' },
+      { match: { Producto: 'Libreta con Foil', 'Estilo de muestra': 'Ilustrado / Deportivo' }, src: 'assets/img/orig/cat-libreta-unicornio-foil-v2.webp', label: 'Muestra real · Libreta infantil con detalles en Foil' },
       { match: { Producto: 'Libreta personalizada' }, src: 'assets/img/orig/cat-libreta-personalizada.webp', label: 'Muestra real · Libreta pasta dura personalizada a color' },
       { match: { Producto: 'Libreta con nombre' }, src: 'assets/img/orig/cat-libreta-nombre.webp', label: 'Muestra real · Libreta personalizada con nombre' },
-      { match: { Producto: 'Libreta corporativa' }, src: 'assets/img/orig/cat-libreta-corporativa.webp', label: 'Muestra real · Libreta corporativa empresarial' },
-      { match: { Producto: 'Libreta corporativa', 'Estilo de muestra': 'Ilustrado / Deportivo' }, src: 'assets/img/orig/cat-libreta-deportes.webp', label: 'Muestra real · Libreta temática deportiva corporativa' },
-      { match: { Producto: 'Interiores impresos' }, src: 'assets/img/orig/cat-libreta-interiores.webp', label: 'Muestra real · Interiores impresos en cuadro con arillo' },
+      { match: { Producto: 'Libreta corporativa' }, src: 'assets/img/orig/cat-libreta-corporativa-v2.webp', label: 'Muestra real · Libreta corporativa empresarial' },
+      { match: { Producto: 'Libreta corporativa', 'Estilo de muestra': 'Ilustrado / Deportivo' }, src: 'assets/img/orig/cat-libreta-deportes-v2.webp', label: 'Muestra real · Libreta temática deportiva corporativa' },
+      { match: { Producto: 'Interiores impresos' }, src: 'assets/img/orig/cat-libreta-interiores-v2.webp', label: 'Muestra real · Interiores impresos en cuadro con arillo' },
       { match: { Producto: 'Calendario de escritorio' }, src: 'assets/img/orig/cat-calendario-escritorio.webp', label: 'Muestra real · Calendario de escritorio con base triangular' },
       { match: { Producto: 'Calendario con Foil' }, src: 'assets/img/orig/cat-calendario-foil.webp', label: 'Muestra real · Calendario de escritorio con Hot Stamping Foil' }
     ]
@@ -157,7 +157,7 @@ const CATALOG_PRODUCTS = [
     category: 'Impresión editorial',
     title: 'Libros, Catálogos y Folletos',
     desc: 'Producción editorial en tiro corto o industrial: libros rústicos, catálogos de arte, manuales y brochures.',
-    image: 'assets/img/orig/cat-libro-pasta-blanda.webp',
+    image: 'assets/img/orig/cat-libro-pasta-blanda-v2.webp',
     defaultCaption: 'Muestra real · Libros impresos en pasta blanda',
     specs: {
       Encuadernación: 'Hot-melt (lomo cuadrado), grapa a caballo o doble arillo metálico',
@@ -176,9 +176,9 @@ const CATALOG_PRODUCTS = [
       Tiraje: ['50 – 200 pzas', '200 – 1,000 pzas', 'Más de 1,000 pzas']
     },
     variantImages: [
-      { match: { Formato: 'Libro pasta blanda' }, src: 'assets/img/orig/cat-libro-pasta-blanda.webp', label: 'Muestra real · Libros rústicos con lomo pegado' },
+      { match: { Formato: 'Libro pasta blanda' }, src: 'assets/img/orig/cat-libro-pasta-blanda-v2.webp', label: 'Muestra real · Libros rústicos con lomo pegado' },
       { match: { Formato: 'Libro ilustrado' }, src: 'assets/img/orig/cat-libro-edicion.webp', label: 'Muestra real · Libro ilustrado pasta blanda' },
-      { match: { Formato: 'Catálogo con lomo cuadrado' }, src: 'assets/img/orig/cat-catalogo-lomo.webp', label: 'Muestra real · Catálogo editorial con lomo cuadrado' },
+      { match: { Formato: 'Catálogo con lomo cuadrado' }, src: 'assets/img/orig/cat-catalogo-lomo-v2.webp', label: 'Muestra real · Catálogo editorial con lomo cuadrado' },
       { match: { Formato: 'Manual con doble arillo' }, src: 'assets/img/orig/cat-manual-wireo.webp', label: 'Muestra real · Manual con encuadernado doble arillo' },
       { match: { Formato: 'Brochure engrapado a caballo' }, src: 'assets/img/orig/cat-brochure-engrapado.webp', label: 'Muestra real · Brochure corporativo engrapado a caballo' }
     ]
@@ -206,8 +206,8 @@ const CATALOG_PRODUCTS = [
     },
     variantImages: [
       { match: { Producto: 'Tarjetas de presentación' }, src: 'assets/img/orig/cat-tarjetas-presentacion.webp', label: 'Muestra real · Tarjetas de presentación en couché grueso' },
-      { match: { Producto: 'Folders corporativos' }, src: 'assets/img/orig/cat-folder-corporativo.webp', label: 'Muestra real · Folder corporativo impreso con solapa' },
-      { match: { Producto: 'Formatos y notas foliadas' }, src: 'assets/img/orig/cat-formato-foliado.webp', label: 'Muestra real · Formato administrativo con folio consecutivo' }
+      { match: { Producto: 'Folders corporativos' }, src: 'assets/img/orig/cat-folder-corporativo-v2.webp', label: 'Muestra real · Folder corporativo impreso con solapa' },
+      { match: { Producto: 'Formatos y notas foliadas' }, src: 'assets/img/orig/cat-formato-foliado-v2.webp', label: 'Muestra real · Formato administrativo con folio consecutivo' }
     ]
   },
   {
@@ -238,7 +238,7 @@ const CATALOG_PRODUCTS = [
     category: 'Punto de venta y activaciones',
     title: 'Promocionales, Coroplast y POS',
     desc: 'Material promocional y señalización: cartón para blister POS, coroplast para plumas de estacionamiento, balones 3D y lanyards.',
-    image: 'assets/img/orig/cat-pop-blister.webp',
+    image: 'assets/img/orig/cat-pop-blister-v2.webp',
     defaultCaption: 'Muestra real · Cartón suajado para empaque blister POS',
     specs: {
       Materiales: 'Coroplast rígido (4 mm), cartulina suajada de alto calibre y cinta poliéster',
@@ -257,11 +257,11 @@ const CATALOG_PRODUCTS = [
       Cantidad: ['50 – 200 pzas', '200 – 1,000 pzas', 'Más de 1,000 pzas']
     },
     variantImages: [
-      { match: { Artículo: 'Empaque para blister POS' }, src: 'assets/img/orig/cat-pop-blister.webp', label: 'Muestra real · Cartón suajado para empaque blister POS' },
+      { match: { Artículo: 'Empaque para blister POS' }, src: 'assets/img/orig/cat-pop-blister-v2.webp', label: 'Muestra real · Cartón suajado para empaque blister POS' },
       { match: { Artículo: 'Coroplast para pluma de estacionamiento' }, src: 'assets/img/orig/cat-coroplast-horizontal.webp', label: 'Muestra real · Anuncio en coroplast para pluma de estacionamiento' },
-      { match: { Artículo: 'Coroplast vertical con ojillos' }, src: 'assets/img/orig/cat-coroplast-vertical.webp', label: 'Muestra real · Letrero vertical en coroplast con ojillos' },
-      { match: { Artículo: 'Balón 3D armado en cartulina' }, src: 'assets/img/orig/cat-pop-balon-3d.webp', label: 'Muestra real · Balón promocional 3D en cartulina suajada' },
-      { match: { Artículo: 'Lanyard sublimado con bandola' }, src: 'assets/img/orig/cat-lanyard-sublimado.webp', label: 'Muestra real · Lanyard sublimado a color con bandola metálica' }
+      { match: { Artículo: 'Coroplast vertical con ojillos' }, src: 'assets/img/orig/cat-coroplast-vertical-v2.webp', label: 'Muestra real · Letrero vertical en coroplast con ojillos' },
+      { match: { Artículo: 'Balón 3D armado en cartulina' }, src: 'assets/img/orig/cat-pop-balon-3d-v2.webp', label: 'Muestra real · Balón promocional 3D en cartulina suajada' },
+      { match: { Artículo: 'Lanyard sublimado con bandola' }, src: 'assets/img/orig/cat-lanyard-sublimado-v2.webp', label: 'Muestra real · Lanyard sublimado a color con bandola metálica' }
     ]
   }
 ];
