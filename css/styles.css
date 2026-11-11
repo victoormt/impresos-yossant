@@ -362,8 +362,8 @@ svg { flex-shrink: 0; }
   position: relative;
   background: #ffffff;
   overflow: hidden;
-  aspect-ratio: 4 / 5;
-  max-height: 440px;
+  aspect-ratio: 3 / 4;
+  max-height: 500px;
 }
 .cfg-media:has(img.is-landscape) {
   aspect-ratio: 3 / 2;
@@ -390,7 +390,7 @@ svg { flex-shrink: 0; }
     aspect-ratio: auto;
     max-height: none;
     height: 100%;
-    min-height: 480px;
+    min-height: 580px;
   }
 }
 .cfg-main { padding: 22px 20px 24px; position: relative; }
