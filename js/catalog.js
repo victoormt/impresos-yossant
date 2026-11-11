@@ -268,6 +268,7 @@ const CATALOG_PRODUCTS = [
 
 let activeProduct = null;
 let selection = {};
+let mediaSwitchToken = 0;
 
 function escapeHtmlAttr(value) {
   return String(value)
@@ -315,6 +316,7 @@ function updateConfiguratorMedia(changedGroup, immediate = false) {
 
   const currentSrc = imgEl.getAttribute('src') || '';
   const targetAlt = media.label || activeProduct.title;
+  const token = ++mediaSwitchToken;
 
   if (!media.src || currentSrc === media.src) {
     imgEl.alt = targetAlt;
@@ -332,11 +334,13 @@ function updateConfiguratorMedia(changedGroup, immediate = false) {
   imgEl.classList.add('is-switching');
   const loader = new Image();
   loader.onload = () => {
+    if (token !== mediaSwitchToken) return;
     imgEl.src = media.src;
     imgEl.alt = targetAlt;
     requestAnimationFrame(() => imgEl.classList.remove('is-switching'));
   };
   loader.onerror = () => {
+    if (token !== mediaSwitchToken) return;
     imgEl.src = media.src;
     imgEl.alt = targetAlt;
     imgEl.classList.remove('is-switching');
