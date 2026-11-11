@@ -36,7 +36,7 @@ const CATALOG_PRODUCTS = [
       { match: { Modelo: 'Caja básica (blanca)' }, src: 'assets/img/cyc/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
       { match: { Modelo: 'Caja asa de corazón' }, src: 'assets/img/cyc/cat-caja-asa-corazon.webp', label: 'Muestra real · Caja con asa de corazón y ventana' },
       { match: { Modelo: 'Caja con suaje calado' }, src: 'assets/img/orig/cat-caja-suaje-calado.webp', label: 'Muestra real · Caja con suaje calado decorativo' },
-      { match: { Modelo: 'Caja plana con ventana' }, src: 'assets/img/orig/cat-caja-hueco-blanca.webp', label: 'Muestra real · Caja plana blanca con ventana suajada' },
+      { match: { Modelo: 'Caja plana con ventana' }, src: 'assets/img/cyc/cat-caja-hueco-blanca.webp', label: 'Muestra real · Caja plana blanca con ventana suajada' },
       { match: { Modelo: 'Caja con faja impresa', Presentación: 'En blanco sin impresión' }, src: 'assets/img/cyc/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
       { match: { Modelo: 'Caja básica (blanca)', Presentación: 'Con faja envolvente' }, src: 'assets/img/cyc/cat-caja-faja.webp', label: 'Muestra real · Caja blanca con faja impresa' }
     ]
