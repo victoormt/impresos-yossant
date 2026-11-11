@@ -451,7 +451,7 @@ svg { flex-shrink: 0; }
 /* ---------- Escala (emprendedor / industria) ---------- */
 .split { display: grid; grid-template-columns: 1fr; gap: 48px; align-items: center; }
 @media (min-width: 960px) { .split { grid-template-columns: 1fr 1fr; gap: 88px; } }
-.split-media { border-radius: 20px; overflow: hidden; aspect-ratio: 4 / 3; }
+.split-media { border-radius: 20px; overflow: hidden; aspect-ratio: 1376 / 768; }
 .section--dark .split-media { border: 1.5px solid rgba(140, 198, 63, 0.35); box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.6); }
 .split-media img { width: 100%; height: 100%; object-fit: cover; }
 .tiers { display: grid; gap: 28px; margin-top: 2.25rem; }
