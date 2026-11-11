@@ -358,9 +358,59 @@ svg { flex-shrink: 0; }
 .cfg-close svg { width: 20px; height: 20px; }
 .cfg-grid { display: grid; grid-template-columns: 1fr; }
 @media (min-width: 820px) { .cfg-grid { grid-template-columns: 5fr 6fr; } }
-.cfg-media { background: var(--bg-soft); }
-.cfg-media img { width: 100%; height: 165px; object-fit: cover; }
-@media (min-width: 820px) { .cfg-media img { height: 100%; min-height: 460px; } }
+.cfg-media {
+  position: relative;
+  background: linear-gradient(180deg, #dde1e6 0%, #e7eaee 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 18px 16px 48px;
+}
+.cfg-media img {
+  width: 100%;
+  height: auto;
+  max-height: 240px;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: opacity .16s ease, transform .2s ease;
+}
+.cfg-media img.is-switching {
+  opacity: .55;
+  transform: scale(0.985);
+}
+.cfg-caption {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 10px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba(11, 18, 32, 0.78);
+  color: #fff;
+  font-size: .78rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+}
+.cfg-caption:empty { display: none; }
+@media (min-width: 820px) {
+  .cfg-media {
+    padding: 26px 22px 58px;
+    min-height: 460px;
+  }
+  .cfg-media img {
+    max-height: 420px;
+  }
+  .cfg-caption {
+    left: 18px;
+    right: 18px;
+    bottom: 16px;
+    font-size: .82rem;
+  }
+}
 .cfg-main { padding: 22px 20px 24px; position: relative; }
 @media (min-width: 820px) { .cfg-main { padding: 32px 32px 28px; } }
 .cfg-main h3 { font-size: 1.45rem; margin: .2rem 0 .4rem; padding-right: 36px; }
