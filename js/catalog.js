@@ -13,7 +13,7 @@ const CATALOG_PRODUCTS = [
     category: 'Empaque a la medida',
     title: 'Cajas Personalizadas',
     desc: 'Cajas plegadizas y empaques suajados sobre diseño para cosmética, regalo y producto comercial.',
-    image: 'assets/img/cat-caja-faja.webp',
+    image: 'assets/img/prep/cat-caja-faja.webp',
     defaultCaption: 'Muestra real · Caja blanca con faja envolvente impresa',
     specs: {
       Material: 'Cartulina sulfatada (14 a 24 pts) o microcorrugado',
@@ -32,13 +32,13 @@ const CATALOG_PRODUCTS = [
       Tiraje: ['100 – 500 pzas', '500 – 2,000 pzas', 'Más de 5,000 pzas']
     },
     variantImages: [
-      { match: { Modelo: 'Caja con faja impresa' }, src: 'assets/img/cat-caja-faja.webp', label: 'Muestra real · Caja con faja envolvente impresa' },
-      { match: { Modelo: 'Caja básica (blanca)' }, src: 'assets/img/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
-      { match: { Modelo: 'Caja asa de corazón' }, src: 'assets/img/cat-caja-asa-corazon.webp', label: 'Muestra real · Caja con asa de corazón y ventana' },
-      { match: { Modelo: 'Caja con suaje calado' }, src: 'assets/img/cat-caja-suaje-calado.webp', label: 'Muestra real · Caja con suaje calado decorativo' },
-      { match: { Modelo: 'Caja plana con ventana' }, src: 'assets/img/cat-caja-hueco-blanca.webp', label: 'Muestra real · Caja plana blanca con ventana suajada' },
-      { match: { Modelo: 'Caja con faja impresa', Presentación: 'En blanco sin impresión' }, src: 'assets/img/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
-      { match: { Modelo: 'Caja básica (blanca)', Presentación: 'Con faja envolvente' }, src: 'assets/img/cat-caja-faja.webp', label: 'Muestra real · Caja blanca con faja impresa' }
+      { match: { Modelo: 'Caja con faja impresa' }, src: 'assets/img/prep/cat-caja-faja.webp', label: 'Muestra real · Caja con faja envolvente impresa' },
+      { match: { Modelo: 'Caja básica (blanca)' }, src: 'assets/img/prep/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
+      { match: { Modelo: 'Caja asa de corazón' }, src: 'assets/img/prep/cat-caja-asa-corazon.webp', label: 'Muestra real · Caja con asa de corazón y ventana' },
+      { match: { Modelo: 'Caja con suaje calado' }, src: 'assets/img/prep/cat-caja-suaje-calado.webp', label: 'Muestra real · Caja con suaje calado decorativo' },
+      { match: { Modelo: 'Caja plana con ventana' }, src: 'assets/img/prep/cat-caja-hueco-blanca.webp', label: 'Muestra real · Caja plana blanca con ventana suajada' },
+      { match: { Modelo: 'Caja con faja impresa', Presentación: 'En blanco sin impresión' }, src: 'assets/img/prep/cat-caja-basica-blanca.webp', label: 'Muestra real · Caja básica en cartulina blanca' },
+      { match: { Modelo: 'Caja básica (blanca)', Presentación: 'Con faja envolvente' }, src: 'assets/img/prep/cat-caja-faja.webp', label: 'Muestra real · Caja blanca con faja impresa' }
     ]
   },
   {
@@ -46,7 +46,7 @@ const CATALOG_PRODUCTS = [
     category: 'Grado alimenticio',
     title: 'Cajas para Comida y Repostería',
     desc: 'Cajas armables y papel envoltura para repostería, pasteles, comida rápida y servicio para llevar.',
-    image: 'assets/img/cat-caja-reposteria.webp',
+    image: 'assets/img/prep/cat-caja-reposteria.webp',
     defaultCaption: 'Muestra real · Caja armada para repostería',
     specs: {
       Material: 'Cartulina grado alimenticio y papel envoltura seguro para alimentos',
@@ -68,16 +68,16 @@ const CATALOG_PRODUCTS = [
       Tiraje: ['100 – 500 pzas', '500 – 2,000 pzas', 'Más de 5,000 pzas']
     },
     variantImages: [
-      { match: { Empaque: 'Caja para repostería' }, src: 'assets/img/cat-caja-reposteria.webp', label: 'Muestra real · Caja armada para repostería' },
-      { match: { Empaque: 'Caja de comida china' }, src: 'assets/img/cat-caja-comida-china-blanca.webp', label: 'Muestra real · Caja de comida china blanca' },
-      { match: { Empaque: 'Caja de comida china', Presentación: 'Impresión full color' }, src: 'assets/img/cat-caja-comida-china-impresa.webp', label: 'Muestra real · Caja de comida china impresa con tu marca' },
-      { match: { Empaque: 'Caja de comida china', Presentación: 'En blanco sin impresión' }, src: 'assets/img/cat-caja-comida-china-blanca.webp', label: 'Muestra real · Caja de comida china blanca sin impresión' },
-      { match: { Empaque: 'Caja alta para pastel' }, src: 'assets/img/cat-caja-pastel-alta.webp', label: 'Muestra real · Caja alta para pastel con tapa' },
-      { match: { Empaque: 'Caja grande / rosca' }, src: 'assets/img/cat-caja-navidena-rosca.webp', label: 'Muestra real · Caja grande impresa para rosca / temporada' },
-      { match: { Empaque: 'Caja hexagonal para postre' }, src: 'assets/img/cat-caja-takeout-postres.webp', label: 'Muestra real · Caja hexagonal take-out para postres' },
-      { match: { Empaque: 'Caja para hamburguesa' }, src: 'assets/img/cat-caja-hamburguesa.webp', label: 'Muestra real · Caja armable para hamburguesa' },
-      { match: { Empaque: 'Caja para hot dog' }, src: 'assets/img/cat-caja-estuche-blanco.webp', label: 'Muestra real · Caja / charola blanca para hot dog' },
-      { match: { Empaque: 'Papel envoltura personalizado' }, src: 'assets/img/cat-papel-envoltura.webp', label: 'Muestra real · Papel envoltura personalizado grado alimenticio' }
+      { match: { Empaque: 'Caja para repostería' }, src: 'assets/img/prep/cat-caja-reposteria.webp', label: 'Muestra real · Caja armada para repostería' },
+      { match: { Empaque: 'Caja de comida china' }, src: 'assets/img/prep/cat-caja-comida-china-blanca.webp', label: 'Muestra real · Caja de comida china blanca' },
+      { match: { Empaque: 'Caja de comida china', Presentación: 'Impresión full color' }, src: 'assets/img/prep/cat-caja-comida-china-impresa.webp', label: 'Muestra real · Caja de comida china impresa con tu marca' },
+      { match: { Empaque: 'Caja de comida china', Presentación: 'En blanco sin impresión' }, src: 'assets/img/prep/cat-caja-comida-china-blanca.webp', label: 'Muestra real · Caja de comida china blanca sin impresión' },
+      { match: { Empaque: 'Caja alta para pastel' }, src: 'assets/img/prep/cat-caja-pastel-alta.webp', label: 'Muestra real · Caja alta para pastel con tapa' },
+      { match: { Empaque: 'Caja grande / rosca' }, src: 'assets/img/prep/cat-caja-navidena-rosca.webp', label: 'Muestra real · Caja grande impresa para rosca / temporada' },
+      { match: { Empaque: 'Caja hexagonal para postre' }, src: 'assets/img/prep/cat-caja-takeout-postres.webp', label: 'Muestra real · Caja hexagonal take-out para postres' },
+      { match: { Empaque: 'Caja para hamburguesa' }, src: 'assets/img/prep/cat-caja-hamburguesa.webp', label: 'Muestra real · Caja armable para hamburguesa' },
+      { match: { Empaque: 'Caja para hot dog' }, src: 'assets/img/prep/cat-caja-estuche-blanco.webp', label: 'Muestra real · Caja / charola blanca para hot dog' },
+      { match: { Empaque: 'Papel envoltura personalizado' }, src: 'assets/img/prep/cat-papel-envoltura.webp', label: 'Muestra real · Papel envoltura personalizado grado alimenticio' }
     ]
   },
   {
@@ -85,7 +85,7 @@ const CATALOG_PRODUCTS = [
     category: 'Retail y regalos',
     title: 'Bolsas de Papel con Jareta',
     desc: 'Bolsas resistentes con asa de cordón y fuelle amplio, impresas a color o lisas en tonos de línea.',
-    image: 'assets/img/cat-bolsa-impresa.webp',
+    image: 'assets/img/prep/cat-bolsa-impresa.webp',
     defaultCaption: 'Muestra real · Bolsa impresa full color con asa de cordón',
     specs: {
       Material: 'Papel / cartulina de alto gramaje con refuerzo en base y boca',
@@ -106,13 +106,13 @@ const CATALOG_PRODUCTS = [
       Tiraje: ['100 pzas', '300 pzas', '500 – 1,000+ pzas']
     },
     variantImages: [
-      { match: { Presentación: 'Impresa personalizada' }, src: 'assets/img/cat-bolsa-impresa.webp', label: 'Muestra real · Bolsa impresa personalizada full color' },
-      { match: { Presentación: 'Lisa negra' }, src: 'assets/img/cat-bolsa-negra.webp', label: 'Muestra real · Bolsa lisa negra con jareta' },
-      { match: { Presentación: 'Lisa roja' }, src: 'assets/img/cat-bolsa-roja.webp', label: 'Muestra real · Bolsa lisa roja con jareta' },
-      { match: { Presentación: 'Lisa verde' }, src: 'assets/img/cat-bolsa-verde.webp', label: 'Muestra real · Bolsa lisa verde con jareta' },
-      { match: { Presentación: 'Lisa naranja' }, src: 'assets/img/cat-bolsa-naranja.webp', label: 'Muestra real · Bolsa lisa naranja con jareta' },
-      { match: { Presentación: 'Lisa fiusha' }, src: 'assets/img/cat-bolsa-fiusha.webp', label: 'Muestra real · Bolsa lisa fiusha con jareta' },
-      { match: { Presentación: 'Lisa amarilla' }, src: 'assets/img/cat-bolsa-amarilla.webp', label: 'Muestra real · Bolsa lisa amarilla con jareta' }
+      { match: { Presentación: 'Impresa personalizada' }, src: 'assets/img/prep/cat-bolsa-impresa.webp', label: 'Muestra real · Bolsa impresa personalizada full color' },
+      { match: { Presentación: 'Lisa negra' }, src: 'assets/img/prep/cat-bolsa-negra.webp', label: 'Muestra real · Bolsa lisa negra con jareta' },
+      { match: { Presentación: 'Lisa roja' }, src: 'assets/img/prep/cat-bolsa-roja.webp', label: 'Muestra real · Bolsa lisa roja con jareta' },
+      { match: { Presentación: 'Lisa verde' }, src: 'assets/img/prep/cat-bolsa-verde.webp', label: 'Muestra real · Bolsa lisa verde con jareta' },
+      { match: { Presentación: 'Lisa naranja' }, src: 'assets/img/prep/cat-bolsa-naranja.webp', label: 'Muestra real · Bolsa lisa naranja con jareta' },
+      { match: { Presentación: 'Lisa fiusha' }, src: 'assets/img/prep/cat-bolsa-fiusha.webp', label: 'Muestra real · Bolsa lisa fiusha con jareta' },
+      { match: { Presentación: 'Lisa amarilla' }, src: 'assets/img/prep/cat-bolsa-amarilla.webp', label: 'Muestra real · Bolsa lisa amarilla con jareta' }
     ]
   },
   {
@@ -120,7 +120,7 @@ const CATALOG_PRODUCTS = [
     category: 'Corporativo y personalizado',
     title: 'Libretas y Calendarios',
     desc: 'Libretas en doble arillo con portadas y hojas personalizadas, y calendarios de escritorio con Foil.',
-    image: 'assets/img/cat-libreta-foil.webp',
+    image: 'assets/img/prep/cat-libreta-foil.webp',
     defaultCaption: 'Muestra real · Libreta con acabado Hot Stamping Foil',
     specs: {
       Encuadernado: 'Doble arillo metálico (Wire-O) de alta resistencia',
@@ -141,15 +141,15 @@ const CATALOG_PRODUCTS = [
       Tiraje: ['50 – 200 pzas', '200 – 1,000 pzas', 'Más de 1,000 pzas']
     },
     variantImages: [
-      { match: { Producto: 'Libreta con Foil' }, src: 'assets/img/cat-libreta-foil.webp', label: 'Muestra real · Libreta con Hot Stamping Foil dorado' },
-      { match: { Producto: 'Libreta con Foil', 'Estilo de muestra': 'Ilustrado / Deportivo' }, src: 'assets/img/cat-libreta-unicornio-foil.webp', label: 'Muestra real · Libreta infantil con detalles en Foil' },
-      { match: { Producto: 'Libreta personalizada' }, src: 'assets/img/cat-libreta-personalizada.webp', label: 'Muestra real · Libreta pasta dura personalizada a color' },
-      { match: { Producto: 'Libreta con nombre' }, src: 'assets/img/cat-libreta-nombre.webp', label: 'Muestra real · Libreta personalizada con nombre' },
-      { match: { Producto: 'Libreta corporativa' }, src: 'assets/img/cat-libreta-corporativa.webp', label: 'Muestra real · Libreta corporativa empresarial' },
-      { match: { Producto: 'Libreta corporativa', 'Estilo de muestra': 'Ilustrado / Deportivo' }, src: 'assets/img/cat-libreta-deportes.webp', label: 'Muestra real · Libreta temática deportiva corporativa' },
-      { match: { Producto: 'Interiores impresos' }, src: 'assets/img/cat-libreta-interiores.webp', label: 'Muestra real · Interiores impresos en cuadro con arillo' },
-      { match: { Producto: 'Calendario de escritorio' }, src: 'assets/img/cat-calendario-escritorio.webp', label: 'Muestra real · Calendario de escritorio con base triangular' },
-      { match: { Producto: 'Calendario con Foil' }, src: 'assets/img/cat-calendario-foil.webp', label: 'Muestra real · Calendario de escritorio con Hot Stamping Foil' }
+      { match: { Producto: 'Libreta con Foil' }, src: 'assets/img/prep/cat-libreta-foil.webp', label: 'Muestra real · Libreta con Hot Stamping Foil dorado' },
+      { match: { Producto: 'Libreta con Foil', 'Estilo de muestra': 'Ilustrado / Deportivo' }, src: 'assets/img/prep/cat-libreta-unicornio-foil.webp', label: 'Muestra real · Libreta infantil con detalles en Foil' },
+      { match: { Producto: 'Libreta personalizada' }, src: 'assets/img/prep/cat-libreta-personalizada.webp', label: 'Muestra real · Libreta pasta dura personalizada a color' },
+      { match: { Producto: 'Libreta con nombre' }, src: 'assets/img/prep/cat-libreta-nombre.webp', label: 'Muestra real · Libreta personalizada con nombre' },
+      { match: { Producto: 'Libreta corporativa' }, src: 'assets/img/prep/cat-libreta-corporativa.webp', label: 'Muestra real · Libreta corporativa empresarial' },
+      { match: { Producto: 'Libreta corporativa', 'Estilo de muestra': 'Ilustrado / Deportivo' }, src: 'assets/img/prep/cat-libreta-deportes.webp', label: 'Muestra real · Libreta temática deportiva corporativa' },
+      { match: { Producto: 'Interiores impresos' }, src: 'assets/img/prep/cat-libreta-interiores.webp', label: 'Muestra real · Interiores impresos en cuadro con arillo' },
+      { match: { Producto: 'Calendario de escritorio' }, src: 'assets/img/prep/cat-calendario-escritorio.webp', label: 'Muestra real · Calendario de escritorio con base triangular' },
+      { match: { Producto: 'Calendario con Foil' }, src: 'assets/img/prep/cat-calendario-foil.webp', label: 'Muestra real · Calendario de escritorio con Hot Stamping Foil' }
     ]
   },
   {
@@ -157,7 +157,7 @@ const CATALOG_PRODUCTS = [
     category: 'Impresión editorial',
     title: 'Libros, Catálogos y Folletos',
     desc: 'Producción editorial en tiro corto o industrial: libros rústicos, catálogos de arte, manuales y brochures.',
-    image: 'assets/img/cat-libro-pasta-blanda.webp',
+    image: 'assets/img/prep/cat-libro-pasta-blanda.webp',
     defaultCaption: 'Muestra real · Libros impresos en pasta blanda',
     specs: {
       Encuadernación: 'Hot-melt (lomo cuadrado), grapa a caballo o doble arillo metálico',
@@ -176,11 +176,11 @@ const CATALOG_PRODUCTS = [
       Tiraje: ['50 – 200 pzas', '200 – 1,000 pzas', 'Más de 1,000 pzas']
     },
     variantImages: [
-      { match: { Formato: 'Libro pasta blanda' }, src: 'assets/img/cat-libro-pasta-blanda.webp', label: 'Muestra real · Libros rústicos con lomo pegado' },
-      { match: { Formato: 'Libro ilustrado' }, src: 'assets/img/cat-libro-edicion.webp', label: 'Muestra real · Libro ilustrado pasta blanda' },
-      { match: { Formato: 'Catálogo con lomo cuadrado' }, src: 'assets/img/cat-catalogo-lomo.webp', label: 'Muestra real · Catálogo editorial con lomo cuadrado' },
-      { match: { Formato: 'Manual con doble arillo' }, src: 'assets/img/cat-manual-wireo.webp', label: 'Muestra real · Manual con encuadernado doble arillo' },
-      { match: { Formato: 'Brochure engrapado a caballo' }, src: 'assets/img/cat-brochure-engrapado.webp', label: 'Muestra real · Brochure corporativo engrapado a caballo' }
+      { match: { Formato: 'Libro pasta blanda' }, src: 'assets/img/prep/cat-libro-pasta-blanda.webp', label: 'Muestra real · Libros rústicos con lomo pegado' },
+      { match: { Formato: 'Libro ilustrado' }, src: 'assets/img/prep/cat-libro-edicion.webp', label: 'Muestra real · Libro ilustrado pasta blanda' },
+      { match: { Formato: 'Catálogo con lomo cuadrado' }, src: 'assets/img/prep/cat-catalogo-lomo.webp', label: 'Muestra real · Catálogo editorial con lomo cuadrado' },
+      { match: { Formato: 'Manual con doble arillo' }, src: 'assets/img/prep/cat-manual-wireo.webp', label: 'Muestra real · Manual con encuadernado doble arillo' },
+      { match: { Formato: 'Brochure engrapado a caballo' }, src: 'assets/img/prep/cat-brochure-engrapado.webp', label: 'Muestra real · Brochure corporativo engrapado a caballo' }
     ]
   },
   {
@@ -188,7 +188,7 @@ const CATALOG_PRODUCTS = [
     category: 'Imagen empresarial',
     title: 'Folders, Tarjetas y Papelería',
     desc: 'Papelería corporativa y de operación interna: tarjetas, folders impresos con solapa y formatos foliados.',
-    image: 'assets/img/cat-tarjetas-presentacion.webp',
+    image: 'assets/img/prep/cat-tarjetas-presentacion.webp',
     defaultCaption: 'Muestra real · Tarjetas de presentación frente y vuelta',
     specs: {
       Material: 'Couché 300g, cartulina sulfatada o papel bond para control',
@@ -205,9 +205,9 @@ const CATALOG_PRODUCTS = [
       Cantidad: ['250 – 500 pzas', '1,000 pzas', '2,500+ pzas']
     },
     variantImages: [
-      { match: { Producto: 'Tarjetas de presentación' }, src: 'assets/img/cat-tarjetas-presentacion.webp', label: 'Muestra real · Tarjetas de presentación en couché grueso' },
-      { match: { Producto: 'Folders corporativos' }, src: 'assets/img/cat-folder-corporativo.webp', label: 'Muestra real · Folder corporativo impreso con solapa' },
-      { match: { Producto: 'Formatos y notas foliadas' }, src: 'assets/img/cat-formato-foliado.webp', label: 'Muestra real · Formato administrativo con folio consecutivo' }
+      { match: { Producto: 'Tarjetas de presentación' }, src: 'assets/img/prep/cat-tarjetas-presentacion.webp', label: 'Muestra real · Tarjetas de presentación en couché grueso' },
+      { match: { Producto: 'Folders corporativos' }, src: 'assets/img/prep/cat-folder-corporativo.webp', label: 'Muestra real · Folder corporativo impreso con solapa' },
+      { match: { Producto: 'Formatos y notas foliadas' }, src: 'assets/img/prep/cat-formato-foliado.webp', label: 'Muestra real · Formato administrativo con folio consecutivo' }
     ]
   },
   {
@@ -215,7 +215,7 @@ const CATALOG_PRODUCTS = [
     category: 'Branding y etiquetado',
     title: 'Stickers y Etiquetas',
     desc: 'Etiquetas en planilla con impresión nítida y detalle en Hot Stamping Foil para sellar bolsas, cajas y libros.',
-    image: 'assets/img/cat-stickers-foil.webp',
+    image: 'assets/img/prep/cat-stickers-foil.webp',
     defaultCaption: 'Muestra real · Etiquetas en planilla con Hot Stamping Foil',
     specs: {
       Material: 'Papel adhesivo couché / estucado con respaldo práctico',
@@ -228,9 +228,9 @@ const CATALOG_PRODUCTS = [
       Cantidad: ['100 – 500 pzas', '1,000 pzas', '5,000+ pzas']
     },
     variantImages: [
-      { match: { Acabado: 'Hot Stamping (Foil)' }, src: 'assets/img/cat-stickers-foil.webp', label: 'Muestra real · Etiquetas en planilla con Hot Stamping Foil' },
-      { match: { Acabado: 'Impresión a color' }, src: 'assets/img/cat-stickers-foil.webp', label: 'Muestra real · Etiquetas en planilla (muestra con Foil)' },
-      { match: { Acabado: 'Laminado mate' }, src: 'assets/img/cat-stickers-foil.webp', label: 'Muestra real · Etiquetas en planilla (muestra con Foil)' }
+      { match: { Acabado: 'Hot Stamping (Foil)' }, src: 'assets/img/prep/cat-stickers-foil.webp', label: 'Muestra real · Etiquetas en planilla con Hot Stamping Foil' },
+      { match: { Acabado: 'Impresión a color' }, src: 'assets/img/prep/cat-stickers-foil.webp', label: 'Muestra real · Etiquetas en planilla (muestra con Foil)' },
+      { match: { Acabado: 'Laminado mate' }, src: 'assets/img/prep/cat-stickers-foil.webp', label: 'Muestra real · Etiquetas en planilla (muestra con Foil)' }
     ]
   },
   {
@@ -238,7 +238,7 @@ const CATALOG_PRODUCTS = [
     category: 'Punto de venta y activaciones',
     title: 'Promocionales, Coroplast y POS',
     desc: 'Material promocional y señalización: cartón para blister POS, coroplast para plumas de estacionamiento, balones 3D y lanyards.',
-    image: 'assets/img/cat-pop-blister.webp',
+    image: 'assets/img/prep/cat-pop-blister.webp',
     defaultCaption: 'Muestra real · Cartón suajado para empaque blister POS',
     specs: {
       Materiales: 'Coroplast rígido (4 mm), cartulina suajada de alto calibre y cinta poliéster',
@@ -257,11 +257,11 @@ const CATALOG_PRODUCTS = [
       Cantidad: ['50 – 200 pzas', '200 – 1,000 pzas', 'Más de 1,000 pzas']
     },
     variantImages: [
-      { match: { Artículo: 'Empaque para blister POS' }, src: 'assets/img/cat-pop-blister.webp', label: 'Muestra real · Cartón suajado para empaque blister POS' },
-      { match: { Artículo: 'Coroplast para pluma de estacionamiento' }, src: 'assets/img/cat-coroplast-horizontal.webp', label: 'Muestra real · Anuncio en coroplast para pluma de estacionamiento' },
-      { match: { Artículo: 'Coroplast vertical con ojillos' }, src: 'assets/img/cat-coroplast-vertical.webp', label: 'Muestra real · Letrero vertical en coroplast con ojillos' },
-      { match: { Artículo: 'Balón 3D armado en cartulina' }, src: 'assets/img/cat-pop-balon-3d.webp', label: 'Muestra real · Balón promocional 3D en cartulina suajada' },
-      { match: { Artículo: 'Lanyard sublimado con bandola' }, src: 'assets/img/cat-lanyard-sublimado.webp', label: 'Muestra real · Lanyard sublimado a color con bandola metálica' }
+      { match: { Artículo: 'Empaque para blister POS' }, src: 'assets/img/prep/cat-pop-blister.webp', label: 'Muestra real · Cartón suajado para empaque blister POS' },
+      { match: { Artículo: 'Coroplast para pluma de estacionamiento' }, src: 'assets/img/prep/cat-coroplast-horizontal.webp', label: 'Muestra real · Anuncio en coroplast para pluma de estacionamiento' },
+      { match: { Artículo: 'Coroplast vertical con ojillos' }, src: 'assets/img/prep/cat-coroplast-vertical.webp', label: 'Muestra real · Letrero vertical en coroplast con ojillos' },
+      { match: { Artículo: 'Balón 3D armado en cartulina' }, src: 'assets/img/prep/cat-pop-balon-3d.webp', label: 'Muestra real · Balón promocional 3D en cartulina suajada' },
+      { match: { Artículo: 'Lanyard sublimado con bandola' }, src: 'assets/img/prep/cat-lanyard-sublimado.webp', label: 'Muestra real · Lanyard sublimado a color con bandola metálica' }
     ]
   }
 ];
@@ -308,11 +308,9 @@ function updateConfiguratorMedia(changedGroup, immediate = false) {
   if (!activeProduct) return;
   const dialog = document.getElementById('configurator');
   const imgEl = dialog?.querySelector('[data-cfg="img"]');
-  const captionEl = dialog?.querySelector('[data-cfg="caption"]');
   if (!imgEl) return;
 
   const media = resolveVariantMedia(activeProduct, selection, changedGroup);
-  if (captionEl) captionEl.textContent = media.label || '';
 
   const currentSrc = imgEl.getAttribute('src') || '';
   const targetAlt = media.label || activeProduct.title;
