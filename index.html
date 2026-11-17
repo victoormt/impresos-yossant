@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fabricación de Cajas, Empaques e Impresión en CDMX | Impresos Yossant</title>
-  <meta name="description" content="Imprenta en CDMX especializada en empaques personalizados, cajas para alimentos y material corporativo. Tirajes cortos en medidas seleccionadas y producción industrial masiva. Envíos a todo México.">
+  <title>Impresos Yossant | Cajas, Empaques e Imprenta en CDMX</title>
+  <meta name="description" content="Impresos Yossant: fábrica de cajas personalizadas, empaques para alimentos e imprenta en CDMX. Tirajes cortos e industriales con envíos a todo México.">
   <meta name="keywords" content="Cajas personalizadas CDMX, cajas para comida y repostería, cajas de comida china, bolsas de papel con jareta, libretas personalizadas, calendarios de escritorio, libros y catálogos, papelería corporativa, etiquetas con foil, promocionales y coroplast CDMX, envíos a todo México">
   <link rel="canonical" href="https://www.impresosyossant.com/">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
@@ -22,7 +22,7 @@
   <meta property="og:locale" content="es_MX">
   <meta property="og:site_name" content="Impresos Yossant">
   <meta property="og:url" content="https://www.impresosyossant.com/">
-  <meta property="og:title" content="Fabricación de Cajas, Empaques e Impresión en CDMX | Impresos Yossant">
+  <meta property="og:title" content="Impresos Yossant | Cajas, Empaques e Imprenta en CDMX">
   <meta property="og:description" content="Tirajes cortos en medidas seleccionadas hasta producción industrial masiva en CDMX. Envíos a todo México.">
   <meta property="og:image" content="https://www.impresosyossant.com/assets/img/og-impresos-yossant.jpg">
   <meta property="og:image:width" content="1200">
@@ -30,7 +30,7 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Fabricación de Cajas, Empaques e Impresión en CDMX | Impresos Yossant">
+  <meta name="twitter:title" content="Impresos Yossant | Cajas, Empaques e Imprenta en CDMX">
   <meta name="twitter:description" content="Tirajes cortos en medidas seleccionadas hasta producción industrial en CDMX. Envíos a todo México.">
   <meta name="twitter:image" content="https://www.impresosyossant.com/assets/img/og-impresos-yossant.jpg">
 
@@ -47,6 +47,15 @@
   {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.impresosyossant.com/#website",
+        "url": "https://www.impresosyossant.com/",
+        "name": "Impresos Yossant",
+        "alternateName": ["Impresos Yossant S.A. de C.V.", "impresosyossant.com"],
+        "inLanguage": "es-MX",
+        "publisher": { "@id": "https://www.impresosyossant.com/#business" }
+      },
       {
         "@type": ["LocalBusiness", "ProfessionalService"],
         "@id": "https://www.impresosyossant.com/#business",
@@ -77,88 +86,92 @@
           { "@type": "City", "name": "Ciudad de México" },
           { "@type": "Country", "name": "México" }
         ],
-        "makesOffer": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Cajas Personalizadas",
-              "description": "Cajas plegadizas básicas o con faja impresa y modelos con suaje de asa o ventana calada.",
-              "image": "https://www.impresosyossant.com/assets/img/prod-cajas-ecommerce-v2.webp",
-              "brand": { "@type": "Brand", "name": "Impresos Yossant" }
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Catálogo de Empaques e Impresión",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Cajas Personalizadas",
+                "description": "Cajas plegadizas básicas o con faja impresa y modelos con suaje de asa o ventana calada.",
+                "image": "https://www.impresosyossant.com/assets/img/prod-cajas-ecommerce-v2.webp",
+                "provider": { "@id": "https://www.impresosyossant.com/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Cajas para Comida y Repostería",
+                "description": "Cajas de comida china blancas o impresas, cajas para pastel, rosca, hamburguesa, hot dog, postres y papel envoltura grado alimenticio.",
+                "image": "https://www.impresosyossant.com/assets/img/prod-cajas-reposteria-v2.webp",
+                "provider": { "@id": "https://www.impresosyossant.com/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Bolsas de Papel con Jareta",
+                "description": "Bolsas de papel con asa de cordón y fuelle amplio, personalizadas full color o lisas en colores de línea.",
+                "image": "https://www.impresosyossant.com/assets/img/prod-bolsas-papel.webp",
+                "provider": { "@id": "https://www.impresosyossant.com/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Libretas y Calendarios",
+                "description": "Libretas engargoladas en doble arillo personalizadas o con Foil metálico, e interiores impresos y calendarios de escritorio.",
+                "image": "https://www.impresosyossant.com/assets/img/prod-libretas-calendarios.webp",
+                "provider": { "@id": "https://www.impresosyossant.com/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Libros, Catálogos y Folletos",
+                "description": "Libros de pasta blanda, catálogos con lomo cuadrado, manuales en arillo metálico y brochures engrapados a caballo.",
+                "image": "https://www.impresosyossant.com/assets/img/prod-libros-catalogos-v2.webp",
+                "provider": { "@id": "https://www.impresosyossant.com/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Folders, Tarjetas y Papelería",
+                "description": "Tarjetas de presentación, folders corporativos impresos y formatos administrativos con folio consecutivo.",
+                "image": "https://www.impresosyossant.com/assets/img/prod-papeleria-corporativa-v2.webp",
+                "provider": { "@id": "https://www.impresosyossant.com/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Stickers y Etiquetas",
+                "description": "Etiquetas autoadheribles en planilla impresas con opción metalizada Hot Stamping Foil para empaques y publicaciones.",
+                "image": "https://www.impresosyossant.com/assets/img/prod-etiquetas-menus-v2.webp",
+                "provider": { "@id": "https://www.impresosyossant.com/#business" }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Promocionales, Coroplast y POS",
+                "description": "Empaques blister POS, letreros en coroplast con ojillos, balones 3D suajados y lanyards.",
+                "image": "https://www.impresosyossant.com/assets/img/prod-promocionales-pop.webp",
+                "provider": { "@id": "https://www.impresosyossant.com/#business" }
+              }
             }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Cajas para Comida y Repostería",
-              "description": "Cajas de comida china blancas o impresas, cajas para pastel, rosca, hamburguesa, hot dog, postres y papel envoltura grado alimenticio.",
-              "image": "https://www.impresosyossant.com/assets/img/prod-cajas-reposteria-v2.webp",
-              "brand": { "@type": "Brand", "name": "Impresos Yossant" }
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Bolsas de Papel con Jareta",
-              "description": "Bolsas de papel con asa de cordón y fuelle amplio, personalizadas full color o lisas en colores de línea.",
-              "image": "https://www.impresosyossant.com/assets/img/prod-bolsas-papel.webp",
-              "brand": { "@type": "Brand", "name": "Impresos Yossant" }
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Libretas y Calendarios",
-              "description": "Libretas engargoladas en doble arillo personalizadas o con Foil metálico, e interiores impresos y calendarios de escritorio.",
-              "image": "https://www.impresosyossant.com/assets/img/prod-libretas-calendarios.webp",
-              "brand": { "@type": "Brand", "name": "Impresos Yossant" }
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Libros, Catálogos y Folletos",
-              "description": "Libros de pasta blanda, catálogos con lomo cuadrado, manuales en arillo metálico y brochures engrapados a caballo.",
-              "image": "https://www.impresosyossant.com/assets/img/prod-libros-catalogos-v2.webp",
-              "brand": { "@type": "Brand", "name": "Impresos Yossant" }
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Folders, Tarjetas y Papelería",
-              "description": "Tarjetas de presentación, folders corporativos impresos y formatos administrativos con folio consecutivo.",
-              "image": "https://www.impresosyossant.com/assets/img/prod-papeleria-corporativa-v2.webp",
-              "brand": { "@type": "Brand", "name": "Impresos Yossant" }
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Stickers y Etiquetas",
-              "description": "Etiquetas autoadheribles en planilla impresas con opción metalizada Hot Stamping Foil para empaques y publicaciones.",
-              "image": "https://www.impresosyossant.com/assets/img/prod-etiquetas-menus-v2.webp",
-              "brand": { "@type": "Brand", "name": "Impresos Yossant" }
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Promocionales, Coroplast y POS",
-              "description": "Empaques blister POS, letreros en coroplast con ojillos, balones 3D suajados y lanyards.",
-              "image": "https://www.impresosyossant.com/assets/img/prod-promocionales-pop.webp",
-              "brand": { "@type": "Brand", "name": "Impresos Yossant" }
-            }
-          }
-        ]
+          ]
+        }
       },
       {
         "@type": "FAQPage",
